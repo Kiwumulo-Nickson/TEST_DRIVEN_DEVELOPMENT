@@ -1,10 +1,10 @@
-
+//  Team mates: 1.Hazel Cimaro, 2.Gloria Tumwebaze , 3.Kiwumulo Nickson
 //right code
 const assert = require('chai').assert;
 
-const factorial = require('../index');
+const factorial = require('../factorial');
 
-describe('Given a factorial number.', () => {
+describe('Calculating a factorial number.', () => {
 	it('0! should be 1', () => {
         assert.equal(factorial(0),1);
 	});
